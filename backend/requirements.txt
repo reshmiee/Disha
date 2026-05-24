@@ -1,0 +1,21 @@
+# ── Core Django ───────────────────────────────────────────────────────────────
+django>=4.2,<5.0
+djangorestframework>=3.15
+
+# ── Auth: JWT ─────────────────────────────────────────────────────────────────
+djangorestframework-simplejwt>=5.3
+
+# ── CORS ──────────────────────────────────────────────────────────────────────
+django-cors-headers>=4.3
+
+# ── AI Clients ────────────────────────────────────────────────────────────────
+# Unified SDK — works with Groq (MARG chatbot, route, dilemma) and xAI (vent space)
+openai>=1.30
+
+# ── Environment ───────────────────────────────────────────────────────────────
+python-dotenv>=1.0
+
+# ── Production (uncomment when deploying) ─────────────────────────────────────
+# gunicorn>=21.0
+# psycopg2-binary>=2.9      # PostgreSQL driver
+# whitenoise>=6.6           # Serve static files without Nginx
